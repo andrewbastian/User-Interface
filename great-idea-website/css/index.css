@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+
 }
 
 html, body {
@@ -64,3 +65,71 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	box-sizing: border-box;
+	
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+	
+}
+
+.container {
+	
+	
+}
+nav {
+	display: inline-block;
+	
+}
+a{
+	margin-right: 34px;
+}
+.logo {
+	margin-left: 46 px;
+}
+
+.ctaContent{
+	display: inline-block;
+}
+
+
+
+.circleImg{
+	display: inline-block;
+	margin- left: 20px;
+}
+.innovation{
+	text-align: center;
+	font-size: 48px;
+	margin-top: 73px;
+	margin-right: 42px;
+	display: inline-block;
+}
+.started{
+	font-size: 20px;
+	border: 1px solid black;
+	width: 150px;
+	height: 60;
+	padding: 10px;
+	text-align: center;
+}
+.innovation, .started{
+	display: inline-block;
+}
+.inStarted, .circleImg{
+	display: inline-block;
+}
+
+h2 {
+	display: inline-block;
+	
+}
+
+.features, .about {
+	hight: 55px;
+	width: 218px;
+	margin: 16px;
+	border: auto;
+	display: inline-block;
+}
